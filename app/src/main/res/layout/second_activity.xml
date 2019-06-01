@@ -4,21 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SegundaActivity">
 
-    <EditText
-        android:id="@+id/edtpassvalue"
+    <TextView
+        android:id="@+id/txtsegundo"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="Escribe algo" />
+        android:text="texto" />
 
     <Button
-        android:id="@+id/btnpassvalue"
+        android:id="@+id/botonsegundo"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_weight="@android:integer/config_mediumAnimTime"
-        android:text="envia los datos"
+        android:text="volver"
         android:padding="20dp"
         android:gravity="center"/>
 
